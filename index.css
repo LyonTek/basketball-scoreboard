@@ -1,0 +1,79 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.scoreboard {
+    background-color: #1E2643;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.team {
+    text-align: center;
+    color: white;
+}
+
+.score {
+    font-size: 4em;
+    font-family: 'Digital-7 Mono', monospace;
+    color: #ff4f79;
+    background-color: #111;
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #3B4A6B;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #506080;
+}
+
+.new-game-container {
+    text-align: center;
+}
+
+#new-game-btn {
+    background-color: #3B4A6B;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2em;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#new-game-btn:hover {
+    background-color: #506080;
+    border-color: #FF4F79;
+}
